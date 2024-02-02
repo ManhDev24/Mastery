@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Start header */
+  .header{
+    background-color:white ;
+    height: 100px;
+    padding: 26px  200px;
+    margin-bottom: 20px;
+  }
+  .Logo{
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  
+   .header_navbar i{
+    width: 36px;
+    height: 36px;
+    line-height: 33px;
+    background-color: hsl(211.71deg 100% 13.73%);
+    border-radius: 50%;
+    color: hsl(47.28deg 99.21% 49.41%);
+    font-size: 15px;
+   }
+   .Navbar_item  {
+    margin: 15px;
+   }
+   .Navbar_item a {
+    margin: 0px 1cqh;
+    text-decoration: none;
+    color: black;
+   }
+   /* End Header */
+
+   /* Start banner */
+   .banner{
+    /* background-image: url(./images/2.jpg);
+    height: 600px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* width: 100%; */
+    height: 750px;
+    background: url(./images/2.jpg) no-repeat top;
+    background-size: cover;
+    background-position: center;
+}
+/*  */
+.wellcome_desc .content_welcome{
+  width: 50%;
+  padding: 80px 200px;
+}
+.wellcome_desc *{
+  float: left;
+  padding: 0 auto;
+}
+.content_welcome *{
+  margin-bottom: 20px;
+}
+.content_image{
+  width: 50%;
+  padding: 83px ;
+}
+.content_image img{
+  height: 350px;
+  width: 600px;
+
+}
+.content_welcome button{
+  padding: 13px 30px;
+  color: black;
+  background-color:hsl(47.43deg 100% 49.61%) ;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.clear{
+  clear: both;
+}
+/* Start number_desc */
+
+.number_desc{
+  background-color:hsla(0, 0%, 96%, 0.603);
+  height: 200px;
+  padding: 53px 220px;
+  text-align: center;
+
+}
+.number_desc *{
+  float: left;
+}
+.number_container{
+  width: 25%;
+  margin-top: 30px;
+  padding: 0 0;
+}
+.number_container *{
+  float: left;
+  padding-right: 10px;
+}
+.number_container h1{
+  font-weight: 600;
+  font-size: 50px;
+}
+.number_container .content_of_numberitem  {
+  font-size: 20px;
+  font-weight:200 ;
+  padding-top: 6px;
+}
