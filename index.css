@@ -18,10 +18,15 @@
 .Logo *{
   float: left;
   overflow: hidden;
-  margin:3px 3px;
-  text-align: center;
-}
+  margin:1px 3px;
 
+}
+.Logo .Mastery span{
+  font-weight: bolder;
+  color: black;
+  padding-top: 2px;
+  font-size: larger;
+}
 .header_navbar i {
   width: 36px;
   height: 36px;
@@ -30,14 +35,19 @@
   border-radius: 50%;
   color: hsl(47.28deg 99.21% 49.41%);
   font-size: 15px;
+  margin-bottom: 20px;
 }
 .Navbar_item {
   margin: 15px;
+
 }
+
 .Navbar_item a {
   margin: 0px 1cqh;
   text-decoration: none;
   color: black;
+  font-weight: bolder;
+  font-size: larger;
 }
 /* End Header */
 
@@ -149,6 +159,7 @@
   margin-top: 20px;
   overflow: hidden;
   background-color: hsl(0deg 0% 96.47%);
+  height: 800px;
 }
 
 .post_container {
@@ -166,6 +177,9 @@
   border: 1px solid #ddd;
   padding: 20px;
   margin-bottom: 20px;
+}
+.dates{
+  height: 212px;
 }
 
 .post_content .content {
@@ -273,4 +287,65 @@ hr {
 }
 .clear {
   clear: both;
+}
+/* start contact */
+.contact{
+  height: 400px;
+  background-color: rgb(0 33 70);
+}
+.contact_container{
+  padding: 10px 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.contact_element .info i{
+  color: rgb(252, 200, 0);
+}
+.contact_element .info *{
+  margin-bottom: 20px;
+}
+.contact_item{
+  margin: auto;
+  width: 80%;
+}
+.contact_element{
+  color:white;
+  margin: 50px 100px;
+  width: 80%;
+}
+
+.item_list a ,.quick_link_item a{
+  color: white;
+  text-decoration: none;
+}
+.feture_list *, .quick_link * {
+  padding-bottom: 10px;
+}
+.quick_link_item a {
+  display: block;
+  /* Add additional styling as needed */
+}
+.item_list a {
+  display: block;
+}
+.info, .feture_list, .quick_link{
+  float: left;
+  width: 33.33%;
+}
+.contact hr {
+  width: 1200px;
+  margin: 20px 190px;
+  color: grey;
+  opacity: 60%;
+}
+.contact_desc{
+  width: 80%;
+  height: 50px;
+  color: white;
+  text-align: start;
+  margin: 40px 190px;
+ 
+}
+.contact_desc_info{
+  padding-left: 95px;
 }
