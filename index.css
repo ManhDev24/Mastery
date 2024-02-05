@@ -15,6 +15,12 @@
   font-size: 28px;
   text-align: center;
 }
+.Logo *{
+  float: left;
+  overflow: hidden;
+  margin:3px 3px;
+  text-align: center;
+}
 
 .header_navbar i {
   width: 36px;
